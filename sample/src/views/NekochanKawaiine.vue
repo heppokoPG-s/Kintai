@@ -13,8 +13,8 @@
                     彼らは神の使いである
                 </v-card-text>
                 <v-card-actions>
-                    <v-btn>
-                        ネコを吸う
+                    <v-btn v-on:click="btnClick">
+                        ネコを吸う。
                     </v-btn>
                 </v-card-actions>
             </v-card>
@@ -26,5 +26,12 @@
 
     data: () => ({
     }),
+
+    methods:{
+        btnClick(){
+            window.alert("にゃ～ん(=^・^=)")
+        }
+    }
+
 }
 </script>

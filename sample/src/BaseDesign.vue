@@ -24,7 +24,7 @@
         </v-navigation-drawer>
 
         <v-content>
-            <HelloWorld />
+            <Main />
         </v-content>
 
         <v-footer app v-bind="localAttrs" :padless="padless">
@@ -38,12 +38,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Main from './views/Main/main';
 
     export default {
     name: 'Base' ,
     components: {
-        HelloWorld,
+        Main,
     },
     data () {
         return {

@@ -20,6 +20,6 @@
 
 # ローカル動作方法
 1. sample ディレクトリ内にcmdで移動
-2. "npm install"を実行
+2. "npm install"を実行(一回だけでよし?)
 3. "npm run serve"を実行
 4. 表示されたURLへアクセス(localhostのほう)

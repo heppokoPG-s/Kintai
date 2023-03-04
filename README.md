@@ -15,5 +15,11 @@
 
 # セットアップぅ
 1. Node.js セットアップ
-2. Node.js モジュールセットアップ
+2. Node.js モジュールセットアップ  
 調べておく....
+
+# ローカル動作方法
+1. sample ディレクトリ内にcmdで移動
+2. "npm install"を実行
+3. "npm run serve"を実行
+4. 表示されたURLへアクセス(localhostのほう)

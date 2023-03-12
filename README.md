@@ -2,7 +2,7 @@
 勤怠管理システムもどきコース資産置き場
 
 # フレームワーク
-→ Laravel(PHP), Vue.js(JS), Vuetify, VueRouter
+→ Laravel(PHP), Vue.js(JS), Vuetify, Vue-Router, Vuex
 
 # 使用言語
 → PHP、JS(.js, .vue)
@@ -11,7 +11,7 @@
 → 出勤したか退勤したかだけを管理するクソ軽勤怠システム
 
 # ローカル環境
-→ XAMMP, Node.js
+→ Node.js
 
 # セットアップぅ
 省略

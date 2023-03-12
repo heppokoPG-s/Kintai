@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\postTestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/inputForm', [postTestController::class,'inputForm']); // 入力フォーム画面(inputForm)のURL割当、起動コントローラ・関数指定
+Route::post('/formPost', [postTestController::class,'formPost']);//結果画面(resultPage)のURL割当、起動コントローラ・関数指定

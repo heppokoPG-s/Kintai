@@ -4,12 +4,14 @@
             <v-card-title> Vueについて </v-card-title>
         </v-card>
 
-        <div class="about">
-            <img
-                alt="Vue logo"
-                src="../../assets/logo.png" />
-            <HelloWorld msg="Welcome to Your Vue.js App" />
-        </div>
+        <v-card>
+            <div class="about">
+                <img
+                    alt="Vue logo"
+                    src="../../assets/logo.png" />
+                <HelloWorld msg="Welcome to Your Vue.js App" />
+            </div>
+        </v-card>
     </v-container>
 </template>
 

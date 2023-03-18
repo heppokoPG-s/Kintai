@@ -22,8 +22,9 @@
                 nav>
                 <v-list-item
                     v-for="item in $store.state.navigation"
-                    :key="item.name"
                     link
+                    :key="item.name"
+                    color="#0394fc"
                     :to="{ name: item.linkname }">
                     <v-list-item-icon>
                         <v-icon>{{ item.icon }}</v-icon>

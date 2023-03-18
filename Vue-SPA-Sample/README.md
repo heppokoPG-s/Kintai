@@ -1,4 +1,4 @@
-# nekochansample
+# vekochan
 
 ## Project setup
 ```

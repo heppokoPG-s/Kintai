@@ -22,15 +22,17 @@ export default new Vuex.Store({
         icon: "mdi-vuetify",
         linkname: "vuetify"
       },
+      {
+        name: "コンポーネントについて",
+        icon: "mdi-information",
+        linkname: "component"
+      },
+      {
+        name: "コーディング規則について",
+        icon: "mdi-pencil-ruler",
+        linkname: "code"
+      },
       // {
-      //   name: "ユーザー削除(工事中...)",
-      //   icon: "mdi-account-hard-hat",
-      //   linkname: "/"
-      // },      {
-      //   name: "情報登録(工事中...)",
-      //   icon: "mdi-account-hard-hat",
-      //   linkname: "/"
-      // },      {
       //   name: "情報確認(工事中...)",
       //   icon: "mdi-account-hard-hat",
       //   linkname: "/"

@@ -18,6 +18,16 @@ const routes = [
     path: '/vuetify',
     name: 'vuetify',
     component: () => import('../Views/Vuetify/VuetifyView.vue')
+  },
+  {
+    path:'/component',
+    name: 'component',
+    component: () => import('../Views/Component/ComponentView')
+  },
+  {
+    path:'/code',
+    name: 'code',
+    component: () => import('../Views/Coding/CodingView')
   }
 ]
 
